@@ -1,0 +1,11 @@
+function performColorBox(){
+	console.log($("a.gallery"));
+	$("a.gallery").colorbox();
+}
+
+$(document).ready(function(){
+	jQuery.getScript("jquery.colorbox.js", function(){
+		performColorBox();
+	});
+});
+
